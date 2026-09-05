@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO Metadata -->
+  <title>Sathya M | Web Developer Portfolio</title>
+  <meta name="description" content="Personal portfolio of Sathya M, Web Development Intern at Thiranex. Showcasing accessible, responsive, and semantic web applications built with HTML5, CSS3, and JavaScript.">
+  <meta name="author" content="Sathya M">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0F4C81">
+
+  <!-- Canonical URL (Replace placeholder with your actual live domain after deployment) -->
+  <!-- REPLACE THIS CANONICAL URL WITH YOUR LIVE DOMAIN AFTER DEPLOYMENT -->
+  <link rel="canonical" href="https://example.com/index.html">
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:title" content="Sathya M | Web Developer Portfolio">
+  <meta property="og:description" content="Personal portfolio of Sathya M, Web Development Intern. Accessible, responsive, and semantic web development projects.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/index.html">
+
+  <!-- Stylesheet & Deferred Scripts -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+  <!-- Skip Navigation Link for Keyboard Accessibility -->
+  <a href="#main-content" class="skip-link">
+    Skip to main content
+  </a>
+
+  <!-- Global Site Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="site-logo">
+        Sathya M
+        <span class="logo-badge">Intern</span>
+      </a>
+
+      <!-- Primary Navigation Landmark -->
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Landmark -->
+  <main id="main-content">
+
+    <!-- Hero Section -->
+    <section class="section hero-section" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">WEB DEVELOPMENT INTERN</p>
+          <h1 id="hero-heading">Building accessible experiences for the modern web.</h1>
+          <p>
+            I create clean, responsive and user-focused websites using semantic HTML, modern CSS and JavaScript.
+          </p>
+          <div class="btn-group">
+            <a href="projects.html" class="btn btn-primary">View My Projects</a>
+            <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+
+        <!-- Profile Summary Aside -->
+        <aside class="profile-card" aria-label="Profile Summary">
+          <h2>Profile Summary</h2>
+          <dl class="profile-dl">
+            <dt>Name:</dt>
+            <dd>Sathya M</dd>
+            <dt>Role:</dt>
+            <dd>Web Development Intern</dd>
+            <dt>Focus:</dt>
+            <dd>Frontend Development</dd>
+            <dt>Strength:</dt>
+            <dd>UI &amp; Accessibility</dd>
+            <dt>Goal:</dt>
+            <dd>Build useful digital products</dd>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Core Skills Section -->
+    <section class="section section-alt" aria-labelledby="skills-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="skills-heading">Core Skills</h2>
+          <p>Foundational web standards and technical principles behind my development approach.</p>
+        </header>
+
+        <div class="cards-grid three-columns">
+          <article class="card">
+            <header class="card-header">
+              <h3 class="card-title">Semantic HTML</h3>
+            </header>
+            <div class="card-body">
+              <p>Structuring documents with native W3C landmarks, appropriate sectioning elements, heading hierarchy, and clean screen-reader trees.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <header class="card-header">
+              <h3 class="card-title">Modern CSS</h3>
+            </header>
+            <div class="card-body">
+              <p>Crafting fluid responsive layouts with CSS Grid, Flexbox, custom properties, WCAG AAA color contrast, and visible focus indicators.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <header class="card-header">
+              <h3 class="card-title">JavaScript</h3>
+            </header>
+            <div class="card-body">
+              <p>Developing lightweight vanilla client scripts for DOM manipulation, event handling, form validation, and accessible status messaging.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section" aria-labelledby="featured-projects-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="featured-projects-heading">Featured Projects</h2>
+          <p>A selection of web development projects demonstrating accessible architecture and user-centered design.</p>
+        </header>
+
+        <div class="cards-grid three-columns">
+          <article class="card">
+            <header class="card-header">
+              <h3 class="card-title">Accessible Portfolio</h3>
+            </header>
+            <div class="card-body">
+              <p>A multi-page portfolio built with semantic landmarks, accessible forms, keyboard navigation, and WCAG principles.</p>
+            </div>
+            <footer class="card-footer">
+              <ul class="tag-list" aria-label="Technologies used for Accessible Portfolio">
+                <li class="tag">HTML5</li>
+                <li class="tag">CSS3</li>
+                <li class="tag">WCAG</li>
+                <li class="tag">SEO</li>
+              </ul>
+              <div style="margin-top: 1rem;">
+                <a href="projects.html#project-1">View project details</a>
+              </div>
+            </footer>
+          </article>
+
+          <article class="card">
+            <header class="card-header">
+              <h3 class="card-title">Task Manager</h3>
+            </header>
+            <div class="card-body">
+              <p>A browser-based task manager concept using DOM manipulation, event handling, and persistent local state.</p>
+            </div>
+            <footer class="card-footer">
+              <ul class="tag-list" aria-label="Technologies used for Task Manager">
+                <li class="tag">JavaScript</li>
+                <li class="tag">DOM</li>
+                <li class="tag">LocalStorage</li>
+                <li class="tag">Responsive UI</li>
+              </ul>
+              <div style="margin-top: 1rem;">
+                <a href="projects.html#project-2">View project details</a>
+              </div>
+            </footer>
+          </article>
+
+          <article class="card">
+            <header class="card-header">
+              <h3 class="card-title">Healthcare Dashboard</h3>
+            </header>
+            <div class="card-body">
+              <p>A role-aware dashboard concept that prioritizes important information for different hospital workflows.</p>
+            </div>
+            <footer class="card-footer">
+              <ul class="tag-list" aria-label="Technologies used for Healthcare Dashboard">
+                <li class="tag">UI Design</li>
+                <li class="tag">Accessibility</li>
+                <li class="tag">Responsive Design</li>
+              </ul>
+              <div style="margin-top: 1rem;">
+                <a href="projects.html#project-3">View project details</a>
+              </div>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section class="section section-alt" aria-labelledby="contact-cta-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="contact-cta-heading">Interested in working together?</h2>
+          <p>I am actively seeking web development opportunities and eager to contribute to accessible, high-quality digital products.</p>
+          <div class="btn-group">
+            <a href="contact.html" class="btn btn-primary">Contact Sathya</a>
+          </div>
+        </header>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-info">
+          <h2>Sathya M</h2>
+          <p>Web Development Intern | Thiranex Task 1</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Sathya M. Built with semantic HTML5.</p>
+        <p>Thiranex Web Development Internship</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

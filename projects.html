@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO Metadata -->
+  <title>Projects | Sathya M</title>
+  <meta name="description" content="Explore practical web development projects built by Sathya M, featuring semantic HTML5 markup, WCAG accessibility compliance, responsive CSS design, and vanilla JavaScript.">
+  <meta name="author" content="Sathya M">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0F4C81">
+
+  <!-- Canonical URL (Replace placeholder with your actual live domain after deployment) -->
+  <!-- REPLACE THIS CANONICAL URL WITH YOUR LIVE DOMAIN AFTER DEPLOYMENT -->
+  <link rel="canonical" href="https://example.com/projects.html">
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:title" content="Projects | Sathya M">
+  <meta property="og:description" content="Portfolio of web development projects focused on semantic structure, WCAG accessibility, and responsive UI design.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/projects.html">
+
+  <!-- Stylesheet & Deferred Scripts -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+  <!-- Skip Navigation Link for Keyboard Accessibility -->
+  <a href="#main-content" class="skip-link">
+    Skip to main content
+  </a>
+
+  <!-- Global Site Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="site-logo">
+        Sathya M
+        <span class="logo-badge">Intern</span>
+      </a>
+
+      <!-- Primary Navigation Landmark -->
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Landmark -->
+  <main id="main-content">
+
+    <!-- Page Title Hero Section -->
+    <section class="section" aria-labelledby="projects-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">PORTFOLIO WORK</p>
+          <h1 id="projects-heading">Projects that solve practical problems.</h1>
+          <p>
+            Detailed overview of web development projects created during my internship, emphasizing accessibility, responsive architecture, and semantic standards.
+          </p>
+        </header>
+      </div>
+    </section>
+
+    <!-- Projects List Section -->
+    <section class="section section-alt" aria-labelledby="projects-list-heading">
+      <div class="container">
+        <h2 id="projects-list-heading" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">Detailed Projects List</h2>
+
+        <!-- Project 01 Article -->
+        <article id="project-1" class="project-card-full">
+          <header class="project-card-header">
+            <div>
+              <p class="project-number">PROJECT 01</p>
+              <h3>Accessible Portfolio</h3>
+            </div>
+            <ul class="tag-list" aria-label="Technologies used for Accessible Portfolio">
+              <li class="tag">HTML5</li>
+              <li class="tag">CSS3</li>
+              <li class="tag">WCAG</li>
+              <li class="tag">SEO</li>
+            </ul>
+          </header>
+          
+          <div class="card-body">
+            <p>
+              A multi-page personal portfolio website engineered to demonstrate strict adherence to modern W3C semantic HTML5 standards and WCAG 2.1 AA/AAA accessibility guidelines.
+            </p>
+            <p>
+              Features complete keyboard and tab navigation, a functional skip link, visible focus rings, high contrast text palette, zero-framework responsive grid layout, accessible form validation with <code>aria-live</code> status messaging, and full Lighthouse SEO and Accessibility target optimizations.
+            </p>
+          </div>
+
+          <footer class="card-footer">
+            <p><strong>Primary Focus:</strong> Structural landmarks, ARIA labeling, keyboard focus management, and SEO metadata integration.</p>
+          </footer>
+        </article>
+
+        <!-- Project 02 Article -->
+        <article id="project-2" class="project-card-full">
+          <header class="project-card-header">
+            <div>
+              <p class="project-number">PROJECT 02</p>
+              <h3>Task Manager</h3>
+            </div>
+            <ul class="tag-list" aria-label="Technologies used for Task Manager">
+              <li class="tag">JavaScript</li>
+              <li class="tag">DOM</li>
+              <li class="tag">LocalStorage</li>
+              <li class="tag">Responsive UI</li>
+            </ul>
+          </header>
+
+          <div class="card-body">
+            <p>
+              A browser-based task manager concept created to demonstrate core vanilla JavaScript DOM manipulation, event handling, dynamic state persistence, and responsive UI controls.
+            </p>
+            <p>
+              Allows users to create, filter, complete, and clear daily tasks with automatic data persistence via browser <code>LocalStorage</code>. Implements accessible keyboard shortcuts, screen-reader friendly status announcements, and touch-optimized buttons.
+            </p>
+          </div>
+
+          <footer class="card-footer">
+            <p><strong>Primary Focus:</strong> Event delegation, client-side data persistence, and dynamic accessible notifications.</p>
+          </footer>
+        </article>
+
+        <!-- Project 03 Article -->
+        <article id="project-3" class="project-card-full">
+          <header class="project-card-header">
+            <div>
+              <p class="project-number">PROJECT 03</p>
+              <h3>Healthcare Dashboard</h3>
+            </div>
+            <ul class="tag-list" aria-label="Technologies used for Healthcare Dashboard">
+              <li class="tag">UI Design</li>
+              <li class="tag">Accessibility</li>
+              <li class="tag">Responsive Design</li>
+              <li class="tag">Information Architecture</li>
+            </ul>
+          </header>
+
+          <div class="card-body">
+            <p>
+              A role-aware dashboard concept designed to prioritize critical medical information and metrics across different hospital administration workflows.
+            </p>
+            <p>
+              Emphasizes clean information architecture, strong typographic hierarchy, high-contrast data visualizations, keyboard-navigable data tables, and responsive card layouts suitable for medical staff viewing on mobile tablets or desktop workstations.
+            </p>
+          </div>
+
+          <footer class="card-footer">
+            <p><strong>Primary Focus:</strong> Complex layout organization, high contrast readability, and accessible data display.</p>
+          </footer>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section class="section" aria-labelledby="projects-cta-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="projects-cta-heading">Have a project in mind?</h2>
+          <p>Reach out to discuss how I can help build accessible, responsive web solutions for your team.</p>
+          <div class="btn-group">
+            <a href="contact.html" class="btn btn-primary">Contact Sathya</a>
+          </div>
+        </header>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-info">
+          <h2>Sathya M</h2>
+          <p>Web Development Intern | Thiranex Task 1</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" aria-current="page">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Sathya M. Built with semantic HTML5.</p>
+        <p>Thiranex Web Development Internship</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
